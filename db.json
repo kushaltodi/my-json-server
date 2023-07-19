@@ -1,5 +1,5 @@
-[
-    {
+{
+   "posts" :[{
       "id": 1,
       "label": "Item 1",
       "dataType": "string",
@@ -51,6 +51,6 @@
       "label": "Item 2",
       "dataType": "string",
       "children": []
-    }
-  ]
+    }]
+}
   
