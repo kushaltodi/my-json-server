@@ -1,11 +1,56 @@
-{
-  "posts": [
-    {
+[
+   "posts": {
       "id": 1,
-      "title": "hello"
+      "label": "Item 1",
+      "dataType": "string",
+      "children": [
+        {
+          "id": 2,
+          "label": "Subitem 1.1",
+          "dataType": "string",
+          "children": [
+            {
+              "id": 3,
+              "label": "Subsubitem 1.1.1",
+              "dataType": "string",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "label": "Subitem 1.2",
+          "dataType": "string",
+          "children": [
+            {
+              "id": 5,
+              "label": "Subitem 1.1",
+              "dataType": "string",
+              "children": [
+                {
+                  "id": 6,
+                  "label": "Subsubitem 1.1.1",
+                  "dataType": "string",
+                  "children": [
+                    {
+                      "id": 8,
+                      "label": "Subsubitem 1.1.1",
+                      "dataType": "int",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "label": "Item 2",
+      "dataType": "string",
+      "children": []
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+  ]
+  
