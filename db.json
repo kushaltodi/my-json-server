@@ -1,56 +1,10 @@
 {
-   "posts": [{
-      "id": 1,
-      "label": "Item 1",
-      "dataType": "string",
-      "children": [
-        {
-          "id": 2,
-          "label": "Subitem 1.1",
-          "dataType": "string",
-          "children": [
-            {
-              "id": 3,
-              "label": "Subsubitem 1.1.1",
-              "dataType": "string",
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": 4,
-          "label": "Subitem 1.2",
-          "dataType": "string",
-          "children": [
-            {
-              "id": 5,
-              "label": "Subitem 1.1",
-              "dataType": "string",
-              "children": [
-                {
-                  "id": 6,
-                  "label": "Subsubitem 1.1.1",
-                  "dataType": "string",
-                  "children": [
-                    {
-                      "id": 8,
-                      "label": "Subsubitem 1.1.1",
-                      "dataType": "int",
-                      "children": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "label": "Item 2",
-      "dataType": "string",
-      "children": []
-    }
+   "posts": [{ key: "a.b.c.d", value: "two" , dtype: "string" },
+  { key: "a.b.c.e", value: "world" , dtype: "string"},
+  { key: "a.b.f", value: "hi" , dtype: "string"},
+  { key: "a.b.g", value: "bar" , dtype: "string"},
+  { key: "a.b.h", value: "baz" , dtype: "string"},
+  { key: "a.b.i.x.y.z", value: "qux" , dtype: "string"},
+  { key: "a.b.j", value: "quux" , dtype: "string"},
   ]}
   
