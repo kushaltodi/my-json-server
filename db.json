@@ -5,6 +5,6 @@
   { "key": "a.b.g", "value": "bar" , "dtype": "string"},
   { "key": "a.b.h", "value": "baz" , "dtype": "string"},
   { "key": "a.b.i.x.y.z", "value": "qux" , "dtype": "string"},
-  { "key": "a.b.j", "value": "quux" , "dtype": "string"},
+  { "key": "a.b.j", "value": "quux" , "dtype": "string"}
   ]
 }
