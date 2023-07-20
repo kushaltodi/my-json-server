@@ -1,10 +1,10 @@
 {
-   "posts": [{ key: "a.b.c.d", value: "two" , dtype: "string" },
-  { key: "a.b.c.e", value: "world" , dtype: "string"},
-  { key: "a.b.f", value: "hi" , dtype: "string"},
-  { key: "a.b.g", value: "bar" , dtype: "string"},
-  { key: "a.b.h", value: "baz" , dtype: "string"},
-  { key: "a.b.i.x.y.z", value: "qux" , dtype: "string"},
-  { key: "a.b.j", value: "quux" , dtype: "string"},
+   "posts": [{ "key": "a.b.c.d", "value": "two" , "dtype": "string" },
+  { "key": "a.b.c.e", "value": "world" , "dtype": "string"},
+  { "key": "a.b.f", "value": "hi" , "dtype": "string"},
+  { "key": "a.b.g", "value": "bar" , "dtype": "string"},
+  { "key": "a.b.h", "value": "baz" , "dtype": "string"},
+  { "key": "a.b.i.x.y.z", "value": "qux" , "dtype": "string"},
+  { "key": "a.b.j", "value": "quux" , "dtype": "string"},
   ]
 }
