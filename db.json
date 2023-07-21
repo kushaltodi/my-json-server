@@ -2,5 +2,5 @@
   { "key": "a.b.c.e.value", "value": "2" },
   { "key": "a.b.c.e.dtype", "value": "string" },
   { "key": "a.b.f.value", "value": "hi" },
-  { "key": "a.b.f.dtype", "value": "string" },
+  { "key": "a.b.f.dtype", "value": "string" }
 ]
