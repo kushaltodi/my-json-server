@@ -1,8 +1,16 @@
-[        
-    { "key": "a.b.c.d", "value": "2" , "dtype": "string" },
-    { "key": "a.b.c.e", "value": "world" , "dtype": "string"},
-    { "key": "a.b.f", "value": "hi" , "dtype": "string"},
-    { "key": "a.b.i.x.y.z", "value": "qux" , "dtype": "string"},
-    { "key": "a.b.j", "value": "quux" , "dtype": "string"}
+[
+  { "key": "d.value", "value": "xyz" },
+  { "key": "d.dtype", "value": "string" },
+  { "key": "a.b.c.e.value", "value": "2" },
+  { "key": "a.b.c.e.dtype", "value": "string" },
+  { "key": "a.b.f.value", "value": "hi" },
+  { "key": "a.b.f.dtype", "value": "string" },
+  { "key": "a.b.g.value", "value": "bar" },
+  { "key": "a.b.g.dtype", "value": "string" },
+  { "key": "a.b.h.value", "value": "baz" },
+  { "key": "a.b.h.dtype", "value": "string" },
+  { "key": "a.b.i.x.y.z.value", "value": "qux" },
+  { "key": "a.b.i.x.y.z.dtype", "value": "string" },
+  { "key": "a.b.j.value", "value": "quux" },
+  { "key": "a.b.j.dtype", "value": "string" }
 ]
-  
