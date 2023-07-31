@@ -1,6 +1,32 @@
-[
-  { "key": "a.b.c.e.value", "value": "2" },
-  { "key": "a.b.c.e.dtype", "value": "string" },
-  { "key": "a.b.f.value", "value": "hi" },
-  { "key": "a.b.f.dtype", "value": "string" }
-]
+{
+    "columns": [
+        {
+            "name": "ProductCode"
+        },
+        {
+            "name": "ProductKey"
+        }
+    ],
+    "row": [
+        {
+            "ProductCode": "1",
+            "ProductKey": "1"
+        },
+        {
+            "ProductCode": "2",
+            "ProductKey": "2"
+        },
+        {
+            "ProductCode": "3",
+            "ProductKey": "3"
+        },
+        {
+            "ProductCode": "4",
+            "ProductKey": "4"
+        },
+        {
+            "ProductCode": "5",
+            "ProductKey": "5"
+        }
+    ]
+}
