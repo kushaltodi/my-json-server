@@ -1,48 +1,22 @@
-{
-    "columns": [
-        {
-            "name": "Product Code"
-        },
-        {
-            "name": "Product Key"
-        }
-    ],
-    "row": [
-        {
-            "Product Code": "1",
-            "Product Key": "1"
-        },
-        {
-            "Product Code": "2",
-            "Product Key": "2"
-        },
-        {
-            "Product Code": "3",
-            "Product Key": "3"
-        },
-        {
-            "Product Code": "2",
-            "Product Key": "2"
-        },
-        {
-            "Product Code": "1",
-            "Product Key": "1"
-        },
-        {
-            "Product Code": "2",
-            "Product Key": "2"
-        },
-        {
-            "Product Code": "1",
-            "Product Key": "1"
-        },
-        {
-            "Product Code": "2",
-            "Product Key": "2"
-        },
-        {
-            "Product Code": "1",
-            "Product Key": "1"
-        }
-    ]
-}
+[
+    {
+        "table_name": "Shipments",
+        "description": "The 'Shipments' table stores data related to the shipping and delivery of products, including tracking details and delivery statuses."
+    },
+    {
+        "table_name": "Exports",
+        "description": "The 'Exports' table contains information about products leaving the system, including export dates and quantities."
+    },
+    {
+        "table_name": "Imports",
+        "description": "The 'Imports' table tracks data about products entering the system, including import dates and origin information."
+    },
+    {
+        "table_name": "Journal Entries",
+        "description": "The 'Journal Entries' table records financial transactions, debits, and credits for accounting and reporting."
+    },
+    {
+        "table_name": "Invoices",
+        "description": "The 'Invoices' table manages billing and invoice data, including invoice numbers, itemized charges, and payment status."
+    }
+]
